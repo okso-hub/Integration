@@ -26,7 +26,7 @@ i = quad(function, borders[0], borders[1])
 
 def main():
     print(f"Your function: \n{func} \nYour interval: {borders}")
-    print(i[0])
+    print(f"The integral value is {round(i[0], 2)}.")
 
 
 if __name__ == "__main__":
